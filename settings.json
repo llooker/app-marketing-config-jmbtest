@@ -1,5 +1,4 @@
 {
   "status": "ready",
-  "CONFIG_TODO": "TODO Add/remove to sectionsEnabled",
-  "sectionsEnabled": [ "search", "social", "google-ads", "facebook-ads", "linkedin", "bing", "all_sources" ]
+  "sectionsEnabled": [ "search", "social", "google-ads", "facebook-ads" ]
 }

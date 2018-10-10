@@ -6,7 +6,7 @@ include: "/app-marketing-google-ads/*.dashboard"
 
 # TODO: Update Google Ads schema
 datagroup: adwords_etl_datagroup {
-  sql_trigger: SELECT COUNT(*) FROM `google_ads.account_hourly_stats` ;;
+  sql_trigger: SELECT COUNT(*) FROM `adwords.account_hourly_stats` ;;
   max_cache_age: "24 hours"
 }
 
@@ -16,7 +16,7 @@ view: adwords_config {
   # TODO: Update Google Ads schema
   dimension: adwords_schema {
     hidden: yes
-    sql:google_ads;;
+    sql:adwords;;
   }
 }
 
